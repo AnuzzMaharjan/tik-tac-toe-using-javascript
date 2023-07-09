@@ -54,6 +54,7 @@ const objectCheck = (data) => {
             document.getElementById("para").innerHTML = (zeroWins ? "O wins!!!" : crossWins ? "X wins!!!" : "Draw!!!");
             // rem();
             OXboxes.forEach(x => x.removeEventListener("click", myFunctionForOX));
+            // asdfadsf
 
 
         }
